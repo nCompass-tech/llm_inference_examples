@@ -1,3 +1,5 @@
+from ncompass.client import nCompass
+
 client = nCompass(api_key = 'llama3')
 '''
 Sessions are a performance optimization to maintain a link between you and the server. If you want
